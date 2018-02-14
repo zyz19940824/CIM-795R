@@ -1,0 +1,209 @@
+.flags {
+  width: 450px;
+  height:300px;
+  border: 1px solid #ccc;
+}
+
+.moldova {
+  border-left: 133px solid #cc092f;
+  border-right: 133px solid #0046ae;
+  width: 133px;
+  background: url(../images/Moldovashape.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-color: yellow;
+
+}
+
+.france {
+ border-left: 133px solid #002395;
+  border-right: 133px solid #ED2939;
+  width: 133px;
+  background-color: white;
+
+}
+
+.germany{
+ border-top:100px solid black;
+  border-bottom:100px solid yellow;
+  height: 100px;
+  width:397px;
+  background-color:red;
+}
+
+.japan{
+  background-color:white;
+  position:relative;
+  width:397px;
+
+}
+
+.japan:before{
+  content:"";
+  width:24%;
+  height:32%;
+  position:absolute;
+  background-color:#C70025;
+  top: 35%;
+  left:38%;
+  border-radius:50%;
+
+}
+
+.rwanda{
+  border-top:160px solid #00A1DE;
+  border-bottom:70px solid #20603D;
+  height: 70px;
+  width:397px;
+  background-color: #FAD201;
+  }
+
+.rwanda:after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: url(../images/Rwanda.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+
+}
+
+.bhutan{
+  width: 0;
+  height: 0;
+  border-top: 300px solid #FFD520;
+  border-right: 450px solid transparent;
+  background position: Z-index: url(../images/Bhutan.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  background-color: #FF4E12;
+}
+
+.bahamas{
+  border-top:100px solid #00778B;
+  border-bottom:100px solid #00778B;
+  height: 100px;
+  width:450px;
+  background-color:#FFC72C;
+ }
+
+.bahamas:before{
+  width: 0;
+  height: 0;
+  border-top: 300px solid transparent;
+  border-left: 450px solid black;
+  border-bottom: 300px solid transparent;
+}
+
+.botswana{
+   background-color:#75AADB;
+}
+
+
+.Bangladesh{
+  background-color: #01796F;
+  position:relative;
+  width:450px;}
+
+.Bangladesh:before{
+  content:"";
+  width:28%;
+  height:43%;
+  position:absolute;
+  background-color: #E11837;
+  top: 25%;
+  left:20%;
+  border-radius:50%;
+  }
+
+  .Bolivia{
+    border-top:160px solid red;
+    border-bottom:70px solid green;
+    height: 70px;
+    width:397px;
+    background-color: yellow;
+  }
+
+.Cameroon{
+  border-left: 133px #007a5e;
+   border-right: 133px #fcd116;
+   width: 133px;
+   background-color: #ce1126;
+   }
+.Cameroon:after{
+  content:"★";
+  Z-index: 1px;
+  font-size: 65px;
+  color: solid #fcd116;
+}
+
+.chile{
+  border-top:160px solid #D52B1E;
+  border-bottom:70px solid white;
+  height: 70px;
+  width:397px;
+}
+
+.chile:after{
+ width: 100px;
+ height: 100px;
+ background: #0039A6;
+ content:"★";
+ Z-index: 1px;
+ font-size: 65px;
+ color: solid white;
+
+}
+
+.malta{
+  border-left: 133px white;
+   border-right: 133px #fcd116;
+   width: 133px;
+   background: url(../images/Flag_of_malta.svg);
+
+}
+
+.Palau{
+  background-color:#4aadd6;
+  position:relative;
+  width:397px;
+  }
+
+.Palau:before{
+    content:"";
+    width:24%;
+    height:32%;
+    position:absolute;
+    background-color:#C70025;
+    top: 35%;
+    left:38%;
+    border-radius:50%;
+}
+
+
+.finland{
+  background: blue;
+  height: 140px;
+  position: relative;
+  width: 200px;
+}
+.finland:before{
+  content:"";
+  background: yellow;
+  width: 200px;
+  height: 20px;
+  top: 60px;
+  left: 0;
+  position:absolute;
+}
+.finland:after{
+  content:"";
+  background: yellow;
+  width: 20px;
+  height: 140px;
+  left: 60px;
+  position:absolute;
+}
