@@ -1,0 +1,22 @@
+.bg-orange {
+  background-color: #F47321; }
+
+.bg-green {
+  background-color: #005030; }
+
+.text-white {
+  color: white; }
+
+.grid-container {
+  display: grid; }
+
+.three-column {
+  grid-template-columns: 33.33% 33.33% 33.33%; }
+
+.text-center {
+  text-align: center; }
+
+.two-colum {
+  grid-template-columns: 70% 30%; }
+
+/*# sourceMappingURL=main.css.map */

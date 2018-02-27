@@ -1,0 +1,28 @@
+$orange:#F47321;
+$green:#005030;
+
+.bg-orange{
+  background-color: $orange;
+}
+
+.bg-green{
+  background-color: $green;
+}
+
+.text-white{
+  color: white;
+}
+
+.grid-container{
+  display: grid;
+}
+.three-column{
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.text-center{
+  text-align: center;
+}
+.two-colum{
+  grid-template-columns: 70% 30% ;
+
+}
